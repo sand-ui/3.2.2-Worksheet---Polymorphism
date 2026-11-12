@@ -7,7 +7,7 @@ class Spell:
 
 
 class FireSpell(Spell):
-    # Overrides cast and accepts optional extra input
+    # Overloads/overrides cast
     def cast(self, power=None):
         if power is None:
             print(self.name, "deals 20 fire damage.")
